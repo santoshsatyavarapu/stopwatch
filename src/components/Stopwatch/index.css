@@ -1,0 +1,112 @@
+/* Write CSS here */
+
+@media (max-width: 767px) {
+  .container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    height: 100vh;
+    padding: 20px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Roboto';
+  }
+  .card {
+    box-shadow: 0px 4px 16px 0px;
+    display: flex;
+    min-width: 300px;
+    width: 250px;
+    max-width: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  img {
+    height: 35px;
+    margin-right: 10px;
+  }
+  .timer {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    height: 100vh;
+    padding-left: 20vw;
+    padding-top: 15vh;
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: 'Roboto';
+  }
+  .card {
+    box-shadow: 0px 4px 16px 0px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .timer {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  img {
+    height: 25px;
+    margin-right: 10px;
+  }
+}
+
+.image-line {
+  display: flex;
+  align-items: center;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.heading {
+}
+
+button {
+  padding: 7px;
+  border-radius: 5px;
+  border-width: 0px;
+  margin: 5px;
+  width: 80px;
+  color: white;
+  font-size: 15px;
+}
+.start {
+  background-color: #1db05f;
+}
+.stop {
+  background-color: #ef0d36;
+}
+.reset {
+  background-color: #eaa800;
+}
+
+.time {
+  font-size: 50px;
+  margin: 10px;
+  margin-top: 0px;
+}
